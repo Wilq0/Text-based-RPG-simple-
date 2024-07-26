@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Test</title>
+    <link rel="stylesheet" href = "styles.css">
+</head>
+<body>
+    <main>
+        <div  id = "mainMenu">
+            <h1 class = "title">Adventure Simulator</h1>
+            <div id = "statContainer">
+                <p class = "statsText">Stats:</p>
+                <p class = "statsText">Health: <span id = "healthPoints">100</span> Doubloons: <span id = "Doubloons">20 </span></p>
+                <p class = "statsText">Current weapon: <span id = "currentWeaponIndex"></span></p>
+            </div>
+            <div id = "buttonContainer">
+                <button id = "button1" class = "button">Travel to store</button>
+                <button id = "button2" class = "button">Travel to a random cave</button>
+                <button id = "button3" class = "button">Travel to Sigma town (requires 200 doubloons and 200 health points)</button>
+                <button id = "button4" class = "button"></button>
+            </div>
+            <div id = "monsterStatContainer">
+                <p>Monster: <span id = "monsterName"></span></p><p>Monster health: <span id = "monsterHealth"></span></p><p>Monster damage: <span id = "monsterDamage"></span></p>
+            </div>
+            <div id = "textContainer">
+                <p><span id = "text">You are an adventurer currently in beta town. Your goal is to get as powerful as possible.</span></p>
+            </div>
+            <div>
+                <button id = "changeWeapon" class = "button">Change Weapon</button>
+            </div>
+        </div>
+    </main>
+    <script src = "./script.js"></script>
+</body>
+</html>
